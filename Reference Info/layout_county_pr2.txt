@@ -1,0 +1,88 @@
+                                   CBP[YR]PRC.TXT
+
+                        Puerto Rico Municipio Data Dictionary                                
+                                 
+
+Note:  In the filename, [YR] is the 2-digit data year.  For instance, the 1998 
+municipio data for Puerto Rico is in file CBP98PRC.TXT.  Each data field is 
+separated by comma (,) delimiters.
+
+NOTE:  "EMPFLAG" (Data Suppression Flag) field denotes employment size class for 
+data withheld to avoid disclosure (confidentiality).  Employment and payroll data 
+are replaced by zeroes.  
+
+
+
+            Data  
+Name        Type  Description
+
+FIPSTATE    C     FIPS State Code
+                     
+                  72 = Puerto Rico
+
+FIPSCTY     C     FIPS County Code
+
+NAICS/SIC   C     Industry Code - Currently a 6-digit NAICS code.
+                  2003 - 2004 was on a 3-digit NAICS basis.  
+                  1998 - 2002 was on a 4-digit SIC basis.  
+                  
+
+EMPFLAG     C     Data Suppression Flag
+
+                     
+                  This denotes employment size class for data
+                  withheld to avoid disclosure. Employment and
+                  payroll data are replaced by zeroes.
+
+
+                  A 0-19
+                  B 20-99
+                  C 100-249
+                  E 250-499
+                  F 500-999
+                  G 1,000-2,499
+                  H 2,500-4,999
+                  I 5,000-9,999
+                  J 10,000-24,999
+                  K 25,000-49,999
+                  L 50,000-99,999
+                  M 100,000 or More
+
+EMP         N     Total Mid-March Employees
+
+AP          N     Total Annual Payroll ($1,000)
+
+EST         N     Total Number of Establishments
+
+N1_4        N     Number of Establishments: Employment Size Class:
+                  1-4 Employees
+
+N5_9        N     Number of Establishments: Employment Size Class:
+                  5-9 Employees
+
+N10_19      N     Number of Establishments: Employment Size Class:
+                  10-19 Employees
+
+N20_49      N     Number of Establishments: Employment Size Class: 
+                  20-49 Employees
+
+N50_99      N     Number of Establishments: Employment Size Class: 
+                  50-99 Employees
+
+N100_249    N     Number of Establishments: Employment Size Class: 
+                  100-249 Employees
+       
+N250_499    N     Number of Establishments: Employment Size Class: 
+                  250-499 Employees
+
+N500_999    N     Number of Establishments: Employment Size Class: 
+                  500-999 Employees
+
+N1000       N     Number of Establishments: Employment Size Class: 
+                  1,000 Or More Employees
+
+CTYTXT      C     County Name
+
+STTXT       C     State Abbreviation
+
+NAICSTXT    C     Industry Name
