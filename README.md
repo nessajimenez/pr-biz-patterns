@@ -1,9 +1,9 @@
-# Business Patterns in Puerto Rico (2013-2023)
+# Business Patterns in Puerto Rico (2012-2022)
 Ironhack Data Analysis Project by Danielle Steede and Vanessa Jimenez
 
 
 ## Overview
-In this project we aim to analyze data sets of Business Patterns in Puerto Rico from 2013-2023 and answer the following questions:
+In this project we aim to analyze data sets of Business Patterns in Puerto Rico from 2012-2022 and answer the following questions:
 1. What are the industries that have had the most growth in Puerto Rico over the past 10 years? 
 2. How have business locations changed in Puerto Rico over the past 10 years?
 
